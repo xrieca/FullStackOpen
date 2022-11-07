@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 browser->>server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
 
@@ -19,3 +20,4 @@ browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
 server-->>browser: [{content: "Test", date: "2022-11-07T15:45:30.009Z" }, ...]
 
 note over browser: browser executes the event handler that renders notes to display
+```
